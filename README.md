@@ -68,7 +68,8 @@ Las aplicaciones que vienen por defecto son:
             - [`./src/lsw-framework/src/apis/lsw-languages/weeklang/test/input/example.week`](./src/lsw-framework/src/apis/lsw-languages/weeklang/test/input/example.week)
 - 💣 Binarios
    - ℹ️ Como apps pero sin ensuciar el escritorio
-- 📆 Calendario
+- 📆 Agenda
+   - 📆 Calendario de días
    - 📊 Reportes - para visualizar reportes personalizados
    - 🔮 Conductometría - para propagaciones conceptuales (en desarrollo y experimental)
    - 🏁 Objetivos y hábitos - para visualizar los estados de ciertas actividades
