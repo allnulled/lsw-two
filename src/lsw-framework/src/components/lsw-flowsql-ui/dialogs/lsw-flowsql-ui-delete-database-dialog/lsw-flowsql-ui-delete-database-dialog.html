@@ -1,0 +1,21 @@
+<div class="lsw_flowsql_ui_delete_database_dialog">
+    <div class="titulo">
+        <div class="flex_row centered">
+            <div class="flex_100">Eliminar base de datos</div>
+            <div class="flex_1 pad_left_1">
+                <button class="supermini visibility_hidden" v-on:click="deleteDatabase">➕</button>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <hr/>
+    <div class="flex_row centered">
+        <div class="flex_100"></div>
+        <div class="flex_1 pad_left_1">
+            <button v-on:click="dialog.accept">Aceptar</button>
+        </div>
+        <div class="flex_1 pad_left_1">
+            <button v-on:click="dialog.cancel">Cancelar</button>
+        </div>
+    </div>
+</div>

@@ -381,6 +381,8 @@ module.exports = Instrumenter.instrumentSet([
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // Flowsql UI:
   `${basepath}/lsw-framework/src/components/lsw-flowsql-ui/lsw-flowsql-ui`,
+  `${basepath}/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-create-database-dialog/lsw-flowsql-ui-create-database-dialog`,
+  `${basepath}/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-delete-database-dialog/lsw-flowsql-ui-delete-database-dialog`,
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // APIs Componente:
   `${basepath}/lsw-framework/src/lsw-api.js`,

@@ -4415,15 +4415,58 @@ div.codeblock {
 /* @vuebundler[Lsw_framework_components][243]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/lsw-flowsql-ui.js*/
 
 /* @vuebundler[Lsw_framework_components][243]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/lsw-flowsql-ui.css*/
+.lsw_flowsql_ui .titulo {
+    background-color: rgb(8, 8, 51);
+    border: 1px solid black;
+    border-radius: 2pt;
+    box-shadow: 0 0 4px black;
+    color: white;
+    padding: 2px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.caja_de_interfaz {
+    border: 1px solid #334;
+    border-radius: 2pt;
+    box-shadow: 0 0 4px black;
+    padding: 2px;
+}
+
+.caja_de_mensaje {
+    padding: 4px;
+}
+
+.item_de_formulario {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.texto_de_formulario {
+    padding: 4px;
+}
+
+/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-create-database-dialog/lsw-flowsql-ui-create-database-dialog.html*/
+
+/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-create-database-dialog/lsw-flowsql-ui-create-database-dialog.js*/
+
+/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-create-database-dialog/lsw-flowsql-ui-create-database-dialog.css*/
 
 
-/* @vuebundler[Lsw_framework_components][244]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/lsw-api.js*/
+/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-delete-database-dialog/lsw-flowsql-ui-delete-database-dialog.html*/
 
-/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/lsw-two/src/modules/app/app.html*/
+/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-delete-database-dialog/lsw-flowsql-ui-delete-database-dialog.js*/
 
-/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/lsw-two/src/modules/app/app.js*/
+/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/components/lsw-flowsql-ui/dialogs/lsw-flowsql-ui-delete-database-dialog/lsw-flowsql-ui-delete-database-dialog.css*/
 
-/* @vuebundler[Lsw_framework_components][245]=/home/carlos/Escritorio/lsw-two/src/modules/app/app.css*/
+
+/* @vuebundler[Lsw_framework_components][246]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/src/lsw-api.js*/
+
+/* @vuebundler[Lsw_framework_components][247]=/home/carlos/Escritorio/lsw-two/src/modules/app/app.html*/
+
+/* @vuebundler[Lsw_framework_components][247]=/home/carlos/Escritorio/lsw-two/src/modules/app/app.js*/
+
+/* @vuebundler[Lsw_framework_components][247]=/home/carlos/Escritorio/lsw-two/src/modules/app/app.css*/
 :root {
     --button_height: 42px;
 }
@@ -5474,9 +5517,9 @@ pre.codeblock {
     cursor: grab;
 }
 
-/* @vuebundler[Lsw_framework_components][246]=/home/carlos/Escritorio/lsw-two/src/bootloader/boot.js*/
+/* @vuebundler[Lsw_framework_components][248]=/home/carlos/Escritorio/lsw-two/src/bootloader/boot.js*/
 
-/* @vuebundler[Lsw_framework_components][247]=/home/carlos/Escritorio/lsw-two/src/bootloader/framework-payload.js*/
+/* @vuebundler[Lsw_framework_components][249]=/home/carlos/Escritorio/lsw-two/src/bootloader/framework-payload.js*/
 
 
 /* @vuebundler[Litestarter_app][2]=/home/carlos/Escritorio/lsw-two/src/lsw-framework/lsw-framework.js*/

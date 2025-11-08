@@ -1,14 +1,22 @@
-<div class="lsw_flowsql_ui">
-    <div class="titulo">Flowsql UI</div>
-    <div class="mensaje buscando" v-if="foundDatabases === null">Buscando...</div>
-    <template v-else-if="Array.isArray(foundDatabases)">
-        <div class="mensaje no_encontrado" v-if="foundDatabases.length === 0">No se encontraron bases de datos actualmente.</div>
-        <div class="" v-else>
-            <div class=""
+<div class="lsw_flowsql_ui caja_de_interfaz">
+    <div class="titulo">
+        <div class="flex_row centered">
+            <div class="flex_100">{{ title }}</div>
+            <div class="flex_1 pad_left_1">
+                <button class="supermini" v-on:click="createDatabase">➕</button>
+            </div>
+        </div>
+    </div>
+    <div class="caja_de_mensaje buscando" v-if="foundDatabases === null">Buscando...</div>
+    <div class="" v-else-if="Array.isArray(foundDatabases)">
+        <div class="caja_de_mensaje no_encontrado" v-if="foundDatabases.length === 0">No se encontraron bases de datos actualmente.</div>
+        <div class="lista de_bases_de_datos" v-else>
+            <div class="item_de_lista"
                 v-for="databaseId, databaseIndex in foundDatabases"
                 v-bind:key="'database_' + databaseId">
                 {{ databaseId }}
             </div>
         </div>
-    </template>
+    </div>
+    <button class="supermini width_100" v-on:click="createDatabase">➕ Crear</button>
 </div>

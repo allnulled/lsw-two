@@ -1,0 +1,23 @@
+<div class="lsw_flowsql_ui_create_database_dialog">
+    <div class="item_de_formulario">
+        <div class="texto_de_formulario">Nombre de la nueva base de datos:</div>
+        <input
+            class="supermini width_100 texto_de_base_de_datos"
+            type="text"
+            v-model="databaseName"
+            placeholder="nombre_de_base_de_datos"
+            v-on:keypress.enter="createDatabase"
+            v-focus
+        />
+    </div>
+    <hr/>
+    <div class="flex_row centered">
+        <div class="flex_100"></div>
+        <div class="flex_1 pad_left_1">
+            <button v-on:click="createDatabase">Aceptar</button>
+        </div>
+        <div class="flex_1 pad_left_1">
+            <button v-on:click="dialog.cancel">Cancelar</button>
+        </div>
+    </div>
+</div>

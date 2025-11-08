@@ -1,0 +1,30 @@
+.lsw_flowsql_ui .titulo {
+    background-color: rgb(8, 8, 51);
+    border: 1px solid black;
+    border-radius: 2pt;
+    box-shadow: 0 0 4px black;
+    color: white;
+    padding: 2px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.caja_de_interfaz {
+    border: 1px solid #334;
+    border-radius: 2pt;
+    box-shadow: 0 0 4px black;
+    padding: 2px;
+}
+
+.caja_de_mensaje {
+    padding: 4px;
+}
+
+.item_de_formulario {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.texto_de_formulario {
+    padding: 4px;
+}
