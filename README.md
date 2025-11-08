@@ -20,7 +20,7 @@ Complemento personal de software.
 ### Links del proyecto
 
 - Aplicación web:
-   - [https://allnulled.github.io/lsw-two/docs/index.html](https://allnulled.github.io/lsw-two/docs/index.html)
+   - [https://allnulled.github.io/lsw-two/index.html](https://allnulled.github.io/lsw-two/index.html)
 
 ### Aplicaciones
 
