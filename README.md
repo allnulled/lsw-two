@@ -1,10 +1,10 @@
-# Lsw-one
+# Lsw-two
 
 Complemento personal de software.
 
 ### Índice
 
-- [Lsw-one](#lsw-one)
+- [Lsw-two](#lsw-two)
     - [Índice](#índice)
     - [Links del proyecto](#links-del-proyecto)
     - [Aplicaciones](#aplicaciones)
@@ -20,20 +20,7 @@ Complemento personal de software.
 ### Links del proyecto
 
 - Aplicación web:
-   - [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/index.html](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/index.html)
-- Proyecto github:
-   - Es oficialmente un **subproyecto** de **DGN Content Management System** y su github es una ruta de dentro de este proyecto.
-   - [https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app)
-- Documentación oficial:
-   - [https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app](https://github.com/carlosjimenohernandez/dgn-cms/tree/main/src/app)
-- Referencia oficial:
-   - [https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/](https://carlosjimenohernandez.github.io/dgn-cms/src/app/docs/reference/)
-- Aplicaciones Android: *los links expiran en 1 semana*
-   - última versión: [https://limewire.com/d/58DBE#WiwibaCreF](https://limewire.com/d/58DBE#WiwibaCreF)
-   - versión del 8 de septiembre de 2025: [https://limewire.com/d/58DBE#WiwibaCreF](https://limewire.com/d/58DBE#WiwibaCreF)
-   - versión del 4 de septiembre de 2025: [https://limewire.com/d/tQyal#vB9pVnHxJz](https://limewire.com/d/tQyal#vB9pVnHxJz)
-   - versión del 1 de septiembre de 2025: [https://limewire.com/d/IQSrD#vmRbOWUDr2](https://limewire.com/d/IQSrD#vmRbOWUDr2)
-   - versión del 29 de agosto de 2025: [https://limewire.com/d/uJJjv#iyvI89x9Kh](https://limewire.com/d/uJJjv#iyvI89x9Kh)
+   - [https://allnulled.github.io/lsw-two/docs/index.html](https://allnulled.github.io/lsw-two/docs/index.html)
 
 ### Aplicaciones
 
@@ -103,8 +90,6 @@ Las aplicaciones que vienen por defecto son:
    - ℹ️ Para inspeccionar cómodamente JS en vivo
 - 💻 Consola de JS
    - ℹ️ Basada en [`eruda`](https://github.com/liriliri/eruda)
-- ♨️ Datos volátiles
-   - ℹ️ Para tener una base de datos con esquema cambiante
 - 🐱 Emojis
    - ℹ️ Para recuperar emojis rápidamente
 - 📹 Trackeables
