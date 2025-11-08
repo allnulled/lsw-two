@@ -1,0 +1,14 @@
+<div class="lsw_flowsql_ui">
+    <div class="titulo">Flowsql UI</div>
+    <div class="mensaje buscando" v-if="foundDatabases === null">Buscando...</div>
+    <template v-else-if="Array.isArray(foundDatabases)">
+        <div class="mensaje no_encontrado" v-if="foundDatabases.length === 0">No se encontraron bases de datos actualmente.</div>
+        <div class="" v-else>
+            <div class=""
+                v-for="databaseId, databaseIndex in foundDatabases"
+                v-bind:key="'database_' + databaseId">
+                {{ databaseId }}
+            </div>
+        </div>
+    </template>
+</div>
